@@ -10,7 +10,7 @@ MBTA_REALTIME_URI = 'http://realtime.mbta.com/developer/api/v2/{}?api_key={}'
 
 class MbtaQueryPerformer(object):
     def __init__(self):
-        self.api_key = 'wX9NwuHnZU2ToO7GmGR9uw'
+        self.api_key = 'RkB1lkS_2EWIXNGu_iNhVw'
 
     def query_schedule(self, route, direction):
         uri = MBTA_REALTIME_URI.format('schedulebyroute', self.api_key)
